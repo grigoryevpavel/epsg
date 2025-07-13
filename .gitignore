@@ -1,0 +1,45 @@
+# Ignore build output directories  
+bin/  
+obj/  
+
+# Ignore user-specific files  
+*.user  
+*.suo  
+*.userosscache  
+*.userprefs  
+
+# Ignore Visual Studio specific files  
+.vscode/  
+.vs/  
+
+# Ignore NuGet packages  
+*.nupkg  
+packages/  
+
+# Ignore logs and temporary files  
+*.log  
+*.tmp  
+*.bak  
+*.swp  
+
+# Ignore compiled files  
+*.dll  
+*.exe  
+*.pdb  
+
+# Ignore coverage reports  
+*.coverage  
+*.coveragexml  
+
+# Ignore generated files  
+Generated/  
+
+# Ignore secrets and configuration  
+#appsettings.json  
+#appsettings.*.json  
+.env  
+
+
+# Ignore other unnecessary files  
+Thumbs.db  
+Desktop.ini
